@@ -1,0 +1,96 @@
+.navigation-wrapper {
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    margin: -8px;
+}
+
+.navigation-wrapper > .navbar {
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin: -8px;
+}
+
+.navigation-wrapper > .navbar img {
+    width: 180px;
+}
+
+/* Navigation links & logo */
+
+.nav-column {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+
+.links {
+    display: flex;
+    padding: 15px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.links a {
+    font-size: 1.25em;
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+}
+
+.links > .nav-links {
+    margin-right: 10px;
+}
+
+.explore {
+    padding-left: 15px;
+}
+
+.explore a {
+    color: #cea135;
+    text-decoration: none;
+}
+
+.spark {
+    margin-left: 15px;
+    opacity: 0.5;
+    font-size: 0.8em;
+    margin-top: 5px;
+}
+
+/* Left side navigation bar, buttons */
+
+.nav-functions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search {
+    margin-right: 40px;
+    font-size: 1.5em;
+    color: #858585;
+}
+
+.nav-functions button{
+    margin-right: 40px;
+    border: none;
+    background-color: #424242;
+    color: white;
+    border-radius: 2px;
+    font-size: 1.15em;
+    outline: none;
+    padding: 10px 25px;
+}
+
+.nav-functions > .button i {
+    color: greenyellow;
+}
+
